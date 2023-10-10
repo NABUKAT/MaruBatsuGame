@@ -1,0 +1,29 @@
+{
+    "name": "MaruBatsuGame",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "webpack --mode development && webpack-dev-server --mode development",
+        "ts_update": "webpack --mode development"
+    },
+    "keywords": [],
+    "author": "nablab",
+    "license": "ISC",
+    "dependencies": {
+        "phaser": "^3.60.0"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.22.20",
+        "@babel/preset-react": "^7.22.15",
+        "babel-loader": "^9.1.3",
+        "css-loader": "^6.8.1",
+        "expose-loader": "^4.1.0",
+        "jsx-dom": "^8.0.7",
+        "style-loader": "^3.3.3",
+        "ts-loader": "^9.5.0",
+        "typescript": "^5.2.2",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
